@@ -3,16 +3,16 @@
 ## Módulo 1: Fundamentos do Git e GitHub
 
 ### 1.1 O que é Git e GitHub?
-- **Git**: Sistema de controle de versão distribuído
+- **Git**: Sistema de controle de versêo distribuído
 - **GitHub**: Plataforma de hospedagem de código usando Git
 - **Diferença**: Git é a ferramenta, GitHub é o serviço online
 
-### 1.2 Instalação
+### 1.2 Instalaçêo
 1. Baixe o Git: https://git-scm.com/downloads
 2. Instale seguindo o assistente
 3. Verifique: `git --version`
 
-### 1.3 Configuração Inicial
+### 1.3 Configuraçêo Inicial
 ```bash
 git config --global user.name "Seu Nome"
 git config --global user.email "seu@email.com"
@@ -46,7 +46,7 @@ git commit -m "Mensagem descritiva"
 
 # 4. Ver histórico
 git log
-git log --oneline        # Versão resumida
+git log --oneline        # Versêo resumida
 ```
 
 ### 2.3 Trabalhando com Branches
@@ -81,7 +81,7 @@ git branch -d nome-branch
 
 ### 3.2 Conectar Repositório Local ao GitHub
 
-**Opção 1: Criar repositório no GitHub primeiro**
+**Opçêo 1: Criar repositório no GitHub primeiro**
 ```bash
 # No site GitHub: New Repository
 # Copie a URL do repositório criado
@@ -92,7 +92,7 @@ git branch -M main
 git push -u origin main
 ```
 
-**Opção 2: Criar do zero localmente**
+**Opçêo 2: Criar do zero localmente**
 ```bash
 # Após criar repositório no GitHub
 git remote add origin URL-DO-SEU-REPO
@@ -114,7 +114,7 @@ git clone https://github.com/usuario/repositorio.git
 
 ---
 
-## Módulo 4: Colaboração
+## Módulo 4: Colaboraçêo
 
 ### 4.1 Fork e Pull Request
 
@@ -128,7 +128,7 @@ git clone https://github.com/usuario/repositorio.git
 2. Push para seu repositório
 3. No GitHub, clique "New Pull Request"
 4. Descreva suas mudanças
-5. Aguarde revisão
+5. Aguarde revisêo
 
 ### 4.2 Issues
 - Relatar bugs
@@ -139,7 +139,7 @@ git clone https://github.com/usuario/repositorio.git
 **Criar Issue:**
 1. Aba "Issues" no repositório
 2. "New Issue"
-3. Título e descrição clara
+3. Título e descriçêo clara
 4. Labels apropriadas
 
 ---
@@ -148,7 +148,7 @@ git clone https://github.com/usuario/repositorio.git
 
 ### 5.1 Desfazer Alterações
 ```bash
-# Desfazer mudanças não commitadas
+# Desfazer mudanças nêo commitadas
 git checkout -- arquivo.txt
 
 # Desfazer último commit (mantém alterações)
@@ -198,7 +198,7 @@ atualizações diversas
 ```
 
 ### 6.2 Estrutura de Branches
-- `main` ou `master`: código de produção
+- `main` ou `master`: código de produçêo
 - `develop`: código de desenvolvimento
 - `feature/nome`: novas funcionalidades
 - `hotfix/nome`: correções urgentes
@@ -253,7 +253,7 @@ Agora use: `git st` em vez de `git status`
 ## Módulo 8: Recursos e Próximos Passos
 
 ### Recursos Úteis
-- **Documentação oficial**: https://docs.github.com
+- **Documentaçêo oficial**: https://docs.github.com
 - **Git Cheat Sheet**: https://education.github.com/git-cheat-sheet-education.pdf
 - **GitHub Learning Lab**: https://lab.github.com
 - **Visualizador Git**: https://git-school.github.io/visualizing-git/
@@ -295,7 +295,7 @@ Agora use: `git st` em vez de `git status`
 ## Cheat Sheet Rápido
 
 ```bash
-# Configuração
+# Configuraçêo
 git config --global user.name "Nome"
 git config --global user.email "email"
 
